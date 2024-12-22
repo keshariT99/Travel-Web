@@ -17,7 +17,9 @@ export const Navbar = () => {
                 <Link to="/gallery" className='px-6 py-2 hover:bg-gray-600 hover:text-white'>Gallery</Link>
                 <Link to="/contact" className='px-6 py-2 hover:bg-gray-600 hover:text-white'>Contact</Link>
                 <Link to="/about" className='px-6 py-2 hover:bg-gray-600 hover:text-white'>About</Link>
-                <button className='py-2 px-6 border rounded-lg bg-gray-300 '>Login</button>
+                <Link to="/login" className='py-2 px-6 border rounded-lg bg-gray-300 hover:bg-gray-400'>
+                    Login
+                </Link>
             </div>
             <div className='md:hidden'>
                 <button onClick={() => setIsOpen(!isOpen)}>
