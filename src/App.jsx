@@ -5,6 +5,8 @@ import Footer from './component/Footer'
 import Gallary from './pages/Gallery'
 import Contact from './pages/Contact'
 import About from './pages/About'
+import Login from './pages/Login'
+import { Register } from './pages/Register'
 
 function App() {
 
@@ -17,6 +19,8 @@ function App() {
           <Route path='/gallery' element={<Gallary/>} ></Route>
           <Route path='/contact' element={<Contact/>} ></Route>
           <Route path='/about' element={<About/>} ></Route>
+          <Route path='/login' element={<Login/>} ></Route>
+          <Route path='/signup' element={<Register/>} ></Route>
         </Routes>
         <Footer />
       </BrowserRouter>
