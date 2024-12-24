@@ -1,5 +1,5 @@
 import React from 'react'
-import FeaturedDestination from '../component/featuredDestination'
+import FeaturedDestination from '../component/FeaturedDestination'
 import Services from '../component/Services'
 
 const Home = () => {
