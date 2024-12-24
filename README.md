@@ -8,10 +8,11 @@ A fully responsive travel website built with React and styled using Tailwind CSS
  Smooth Animations  
  Social Media Links: Easily accessible in the footer  
 
-🛠️Technologies Used
+🛠️Technologies Used  
 React: For building a dynamic and interactive UI  
 Tailwind CSS: For clean and consistent styling  
 React Router: For seamless page navigation  
 Form Validation: Built-in frontend form validation  
 
-📸 Preview
+📸 Demo  
+Watch the video : 
