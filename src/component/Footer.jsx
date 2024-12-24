@@ -1,8 +1,10 @@
 import React from "react";
+import { useNavigate } from 'react-router-dom'
 import { Phone, MapPin, Clock, Plane } from 'lucide-react';
 import { FaTwitter, FaFacebookF, FaGoogle, FaSkype, FaInstagram } from 'react-icons/fa';
 
 const Footer = () => {
+  const navigate = useNavigate();
     const recentTrips = [
         {
           id: 1,
@@ -47,10 +49,14 @@ const Footer = () => {
             <h2 className="text-3xl font-poppins font-semibold mb-2">Try Our Tour Today!</h2>
           </div>
           <div className="flex space-x-4 ml-20">
-            <button className="bg-black text-white px-6 py-2 rounded-full hover:bg-gray-800 transition">
+            <button 
+            onClick={()=> navigate('/signup')} 
+            className="bg-black text-white px-6 py-2 rounded-full hover:bg-gray-800 transition" >
               Sign up →
             </button>
-            <button className="border-2 border-white text-white px-6 py-2 rounded-full hover:bg-white hover:text-blue-600 transition">
+            <button 
+            onClick={()=> navigate('/login')}
+            className="border-2 border-white text-white px-6 py-2 rounded-full hover:bg-white hover:text-blue-600 transition">
               Sign In →
             </button>
           </div>
